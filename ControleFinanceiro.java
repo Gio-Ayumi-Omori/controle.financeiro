@@ -5,7 +5,8 @@ public class ControleFinanceiro {
 
         Scanner entrada = new Scanner(System.in);
 
-        
+        double receita = 0.00;
+
         System.out.println("digite o valor do seu sálario");
         int receita;
         receita = entrada.nextInt();
